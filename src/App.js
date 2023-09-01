@@ -1,20 +1,16 @@
 import "./App.css";
-import Bodyone from "./components/Bodyone";
-import Bodytwo from "./components/Bodytwo";
-// import First from "./components/First";
-import Footer from "./components/Footer";
-import Howitworks from "./components/Howitworks";
-import Navbar from "./components/Navbar";
+import AllRoutes from "./routes/AllRoutes";
 
 function App() {
   return (
     <div>
       {/* <First/> */}
-      <Navbar/>
+      {/* <Navbar/>
       <Bodyone/>
       <Bodytwo/>
       <Howitworks/>
-      <Footer/>
+      <Footer/> */}
+      <AllRoutes/>
     </div>
   );
 }
